@@ -13,21 +13,21 @@ Welcome to the DSA repository! I have created and solved several problems relate
 To get started with this repository:
 
 1. Clone the repository:
-bash
-Copy code
+```sh
 git clone https://github.com/your-username/dsa.git
+ ```
 
 2. Navigate to the repository directory:
-bash
-Copy code
+ ```sh
 cd dsa
+ ```
 
 3. Explore the problems and solutions:
 
 Problems are organized by categories such as Arrays, Linked Lists, Trees, Graphs, etc.
 Each category has its folder with problem statements and corresponding solutions.
 
-###How to Contribute
+### How to Contribute
 Contributions are welcome! Feel free to open a pull request if you have a problem to add or a different solution to an existing problem.
 
 - Fork the repository.
