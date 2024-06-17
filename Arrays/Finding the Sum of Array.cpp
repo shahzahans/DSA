@@ -10,14 +10,14 @@ using namespace std;
 
 int main()
 {
- int a[5] = {3,2,3,6,4};
- int sum = 0;
- int arraySize = sizeof(a)/sizeof(a[0]);
+ int a[5] = {3,2,3,6,4}; // Intiliaze the Array
+ int sum = 0; // Intialize variable
+ int arraySize = sizeof(a)/sizeof(a[0]); // Finding the size of Array
  cout << "Sum of an Array: ";
-    for (int i = 0; i < arraySize; i++){
+    for (int i = 0; i < arraySize; i++){ // Iterating through loop to find the sum of the whole array
         sum += a[i];
     }
-    cout << sum << "\n";
+    cout << sum << "\n"; // Print the Sum
 
     return 0;
 }
