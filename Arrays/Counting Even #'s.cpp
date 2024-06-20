@@ -18,7 +18,7 @@ int main()
         }
     }
     
-    cout << "There are " << count << " even numbers." << endl; // Printing the counted Even numbers within the Array
+    cout << "There are " << count << " even numbers." << endl; // Printing the counted Even numbers that was within the Array
 
     return 0;
 }
