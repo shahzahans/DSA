@@ -1,7 +1,7 @@
 /**
  * Practice Problem ~ Shadman S.
  * Topic: 2D Array'S
- * Problem Statement: Given an n*n matrix and an integer x, find the position of x in the matrixif it is present
+ * Problem Statement: Given an n*n matrix and an integer x, find the position of x in the matrix if it is present
  * otherwise, print "Element mot found"
  * Note: Every row and column of the matrix is sorted in increasing order
  */
