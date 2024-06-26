@@ -1,7 +1,7 @@
 /**
  * Practice Problem ~ Shadman S.
  * Topic: 2D Array'S
- * Problem Statement: given two numbers, start and end prints all the numbers from start to end
+ * Problem Statement: given two numbers, start and end print all the numbers from start to end
  */
  
 #include <iostream>
