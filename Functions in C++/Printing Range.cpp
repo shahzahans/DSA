@@ -1,6 +1,6 @@
 /**
  * Practice Problem ~ Shadman S.
- * Topic: 2D Array'S
+ * Topic: Functions 
  * Problem Statement: given two numbers, start and end print all the numbers from start to end
  */
  
