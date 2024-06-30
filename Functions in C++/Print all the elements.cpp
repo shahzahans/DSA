@@ -1,7 +1,7 @@
 /**
  * Practice Problem ~ Shadman S.
  * Topic: Functions 
- * Problem Statement: given two numbers, write a function that prints all the elements present in the Array separated by comma
+ * Problem Statement: given two numbers, write a function that prints all the elements present in the Array separated by a comma
  */
 #include <iostream>
 using namespace std;
