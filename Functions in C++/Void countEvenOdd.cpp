@@ -1,7 +1,7 @@
 /**
  * Practice Problem ~ Shadman S.
  * Topic: Functions 
- * Problem Statement: 
+ * Problem Statement: given an array of integer, write a function that returns the count of even odd number in it
  */
 #include <iostream>
 using namespace std;
