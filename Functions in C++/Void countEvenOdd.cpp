@@ -22,11 +22,11 @@ void countEvenOdd(int a[], int n){ // Function for counting even and Odd numbers
 
 int main()
 {
-    int a[] = {1,2,3,4,5,6,7,8,9};
+    int a[] = {1,2,3,4,5,6,7,8,9}; // initialize the array
     
-    int n = sizeof(a)/sizeof(a[0]);
+    int n = sizeof(a)/sizeof(a[0]); // find the size of the array
     
-    countEvenOdd(a,n);
+    countEvenOdd(a,n); // calling the function for countinh even and odd numbers
 
     return 0;
 }
