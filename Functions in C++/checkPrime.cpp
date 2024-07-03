@@ -6,24 +6,24 @@
 #include <iostream>
 using namespace std;
 
-int checkPrime(int n){
-    for(int i = 2; i < n; i++){
-        if(n % i == 0){
+int checkPrime(int n){ //Function to check for prime numbers
+    for(int i = 2; i < n; i++){ // loop to see if the number is divisible
+        if(n % i == 0){ // if number is divisible by another number then return 0
             return 0;
         }
 
     }
-    return 1;
+    return 1; // if the number is not divisible by another number then return 1
 }
 
 int main(){
-    int n;
+    int n; // decarling an variable
 
     cout << "Enter a number: ";
-    cin >> n;
+    cin >> n; // input an number
     int flag = checkPrime(n);
     
-    if(flag == 1){
+    if(flag == 1){ // flag to check for prime numbers
         cout << n << " is a prime number";
     }
     else{
