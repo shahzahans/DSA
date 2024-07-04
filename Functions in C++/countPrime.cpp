@@ -30,15 +30,15 @@ int main()
     // initialize the size 
     int size; // if array is given int n = sizeof(a)/sizeof(a[0]); 
     cout << "Enter the size of the array: ";
-    cin >> size; 
+    cin >> size; // takes size as an input
     cout << endl;
     
     int a[size];
     cout << "Enter the element you want in your array [\" \"]: ";  
-    for (int i = 0; i < size; i++){
+    for (int i = 0; i < size; i++){ // loop take in array as an input
         cin >> a[i];
     }
-    countPrime(a,size);
+    countPrime(a,size); // calling the function
 
     return 0;
 }
