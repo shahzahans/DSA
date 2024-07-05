@@ -28,15 +28,15 @@ void countPrime(const vector<int>& a){ // Function to count prime
 
 int main()
 {
-    int size;
+    int size; // initialize the size variable
     cout << "Enter the size of the Array: ";
-    cin >> size;
+    cin >> size; // takes in size as an input
     
-    vector<int> a(size);
+    vector<int> a(size); // vector initializing 
     
     cout << "Enter the inegers in Array: ";
     for(int i = 0; i < 5; i++){
-        cin >> a[i];
+        cin >> a[i]; // takes in numbers for vectors and has no limit 
     }
     countPrime(a);
 
