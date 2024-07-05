@@ -7,16 +7,16 @@
 #include <array>
 using namespace std;
 
-int checkPrime(int num){
+int checkPrime(int num){ // Function to check for prime number
     if (num <= 1) return 0; // "1" and "0" is not a prime numbers
-    for(int i = 2; i < num; i++){
-        if (num%i == 0){
+    for(int i = 2; i < num; i++){ // loop find primes numbers
+        if (num%i == 0){ // if divisible not a prime number
             return 0;
         }
     }
-    return 1;
+    return 1; // else not divisible then it is a prime number
 }
-void countPrime(const array <int, 5>& a){
+void countPrime(const array <int, 5>& a){ 
     int primCount = 0;
     for (int num : a){
         if(checkPrime(num)){
