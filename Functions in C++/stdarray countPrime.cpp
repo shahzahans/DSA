@@ -16,10 +16,10 @@ int checkPrime(int num){ // Function to check for prime number
     }
     return 1; // else not divisible then it is a prime number
 }
-void countPrime(const array <int, 5>& a){ 
-    int primCount = 0;
-    for (int num : a){
-        if(checkPrime(num)){
+void countPrime(const array <int, 5>& a){  // function to count prime numbers
+    int primCount = 0; // intialized variable to count prime numbers
+    for (int num : a){ // loop take in numbers from a to num
+        if(checkPrime(num)){ // if returns happens then primecount ++
             primCount ++;
         }
     }
@@ -28,13 +28,13 @@ void countPrime(const array <int, 5>& a){
 
 int main()
 {
-    array<int, 5> a;
+    array<int, 5> a; // initialized std::array 
     
-    cout << "Enter the inegers in Array: ";
-    for(int i = 0; i < 5; i++){
+    cout << "Enter the inegers in Array: "; 
+    for(int i = 0; i < 5; i++){ // loop to take array as input
         cin >> a[i];
     }
-    countPrime(a);
+    countPrime(a); // calling function
 
     return 0;
 }
