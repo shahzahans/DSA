@@ -8,13 +8,13 @@
 #include <iostream>
 using namespace std;
 
-int linearSearch(int a[], int n, int k){
-    for(int i = 0; i < n; i++){
+int linearSearch(int a[], int n, int k){ // Function for Linear search which traverse through the whole array
+    for(int i = 0; i < n; i++){ // loop to find key element
         if (a[i] == k){
-            return i;
+            return i; // if found returned
         }
     }
-    return -1; 
+    return -1; // else: not returned -1
 }
 
 int binarySearch(int a[], int S, int E, int k){
