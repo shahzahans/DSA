@@ -17,22 +17,22 @@ int linearSearch(int a[], int n, int k){ // Function for Linear search which tra
     return -1; // else: not returned -1
 }
 
-int binarySearch(int a[], int S, int E, int k){
-    while(S <= E){
-        int mid = (S+E)/2;
+int binarySearch(int a[], int S, int E, int k){ // Binary Search functions occurs by dividing array by half and goes based if key element > mid or mid element < mid
+    while(S <= E){ // While loop to find the key element
+        int mid = (S+E)/2; // divedes in half
         
-        if(a[mid] == k){
+        if(a[mid] == k){ // if mid == key element then return mid
             return mid;
         }
         
-        else if (a[mid] > k){
+        else if (a[mid] > k){ // key element < mid then E points at mid -1
             E = mid - 1;
         }
         else{
-            S = mid + 1;
+            S = mid + 1; // key element > mid then S points at mid +1
         }
     }
-    return -1;
+    return -1; // not found key then -1
 }
 
 
