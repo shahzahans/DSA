@@ -18,30 +18,29 @@ int linearSearch(int a[], int i, int n, int k){ // recursion Function for linear
     return linearSearch (a, i+1, n, k); // recursion
 }
 
-int binarySearch(int a[], int S, int E, int k){
-    int mid = (S+E)/2;
-    if(a[mid] == k){
+int binarySearch(int a[], int S, int E, int k){ // binary recursion function
+    int mid = (S+E)/2; // calculating mid
+    if(a[mid] == k){ // if mid equal the key return the mid
         return mid;
     }
-    else if (a[mid] > k){
+    else if (a[mid] > k){ // if mid is greater then k then binary function is called using recursion method
         return binarySearch(a,S,E-1,k);
         
-    }
-    else{
-        return binarySearch(a,S+1,E,k);
+    }// if mid is greater then k then binary function is called using recursion method    else{
+        return binarySearch(a,S+1,E,k); // if mid is less then k then binary function is called using recursion method
     }
     return -1;
 }
 
 
 int main(){
- int a[] = {1,3,6,8,9,11};
- int k = 6;
- int n = sizeof(a)/sizeof(a[0]);
- int S = 0;
- int E = n-1;
- int index1 = linearSearch(a,0,n,k);
- int index2 = binarySearch(a,S,E,k);
+ int a[] = {1,3,6,8,9,11}; // array is created
+ int k = 6; // key element
+ int n = sizeof(a)/sizeof(a[0]); // finding the size
+ int S = 0; // Start
+ int E = n-1; // end
+ int index1 = linearSearch(a,0,n,k); // calling function
+ int index2 = binarySearch(a,S,E,k); // calling function
  
  cout << "The element " << k << " using linearSearch was found at index: " << index1 << endl;
  cout << "The element " << k << " using binarySearch was found at index: " << index2 << endl;
