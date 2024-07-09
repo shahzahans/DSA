@@ -26,8 +26,8 @@ int binarySearch(int a[], int S, int E, int k){ // binary recursion function
     else if (a[mid] > k){ // if mid is greater than k then the binary function is called using the recursion method
         return binarySearch(a,S,E-1,k);
         
-    }// if mid is greater then k then binary function is called using recursion method    else{
-        return binarySearch(a,S+1,E,k); // if mid is less then k then binary function is called using recursion method
+    }// if mid is greater than k then the binary function is called using the recursion method    else{
+        return binarySearch(a,S+1,E,k); // if mid is less than k then the binary function is called using the recursion method
     }
     return -1;
 }
