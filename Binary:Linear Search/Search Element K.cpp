@@ -17,7 +17,7 @@ int linearSearch(int a[], int n, int k){ // Function for Linear search which tra
     return -1; // else: not returned -1
 }
 
-int binarySearch(int a[], int S, int E, int k){ // Binary Search functions occurs by dividing array by half and goes based if key element > mid or mid element < mid
+int binarySearch(int a[], int S, int E, int k){ // Binary Search functions occur by dividing the array by half and goes based on key element > mid or mid element < mid
     while(S <= E){ // While loop to find the key element
         int mid = (S+E)/2; // divedes in half
         
@@ -40,7 +40,7 @@ int main(){
  int a[] = {1,3,6,8,9,11}; // Initializing the Array
  int k = 6; // key element
  int n = sizeof(a)/sizeof(a[0]); // finding the size
- int S = 0; // initilizing the start varibale with 0
+ int S = 0; // initilizing the start variable with 0
  int E = n-1; // initializing the End variable with size -1
  int index1 = linearSearch(a,n,k); // calling the function
  int index2 = binarySearch(a,S,E,k); // calling the function
