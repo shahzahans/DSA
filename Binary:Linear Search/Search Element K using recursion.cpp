@@ -10,7 +10,7 @@ using namespace std;
 
 int linearSearch(int a[], int i, int n, int k){ // recursion Function for linear Search recursion (function calling itself in function ex: line 18 )
     if(i == n){ // 
-        return -1; // i reached n then program ends
+        return -1; // i reached n then the program ends
     }
     if ( a[i] == k){ // if key element is found then return the index
         return i; 
