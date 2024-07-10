@@ -37,13 +37,13 @@ using namespace std;
 
 int main()
 {
-    int a [] = {1,2,3,4,5,5,5,5,6};
-    int k = 5;
+    int a [] = {1,2,3,4,5,5,5,5,6}; // intializing Array
+    int k = 5; // occurance element is 5
     
-    int n = sizeof(a)/sizeof(a[0]);
+    int n = sizeof(a)/sizeof(a[0]); // finding size
     
-    int index1 = linearSearch(a,n,k);
-    int index2 = binarySearch(a, 0 , n-1 , k);
+    int index1 = linearSearch(a,n,k); // caling in functions
+    int index2 = binarySearch(a, 0 , n-1 , k); // calling in functions
     
     cout << "Using linearSearch to find index of occurance element returns: " << index1 << endl;
     cout << "Using binarySearch to find index of occurance element returns: " << index2 << endl;
