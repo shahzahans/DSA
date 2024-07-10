@@ -9,13 +9,13 @@
 #include <iostream>
 using namespace std;
 
- int linearSearch(int a[],int n, int k){
-     for (int i = 0; i < n; i ++){
+ int linearSearch(int a[],int n, int k){ // Function for linearSearch medthod
+     for (int i = 0; i < n; i ++){ // loop find the first occurance index element of K
          if(a[i] == k){
              return i;
          }
      }
-     return -1;
+     return -1; // return -1 if not found
  }
  
  int binarySearch (int a[], int L, int R, int k){
