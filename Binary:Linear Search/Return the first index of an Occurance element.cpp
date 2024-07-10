@@ -18,21 +18,21 @@ using namespace std;
      return -1; // return -1 if not found
  }
  
- int binarySearch (int a[], int L, int R, int k){
+ int binarySearch (int a[], int L, int R, int k){ // Function to call binarySearch Method
      
-     int res;
+     int res; // variable to store mid, if K is == mid
      int mid = (L + R)/2;
-     if( a[mid] == k){
+     if( a[mid] == k){ // if a[mid] == k then we check left side if the idex is present on left side first
          res = mid;
          R = mid -1;
      }
-     else if( a[mid] > k){
+     else if( a[mid] > k){ // if a[mid] is less than k then we proceed left side to find the occurance k element
          R = mid -1;
      }
-     else{ // a[mid] < k
+     else{ // a[mid] < k // else we go right
       L = mid + 1;   
      }
-     return res;
+     return res; // then return res
  }
 
 int main()
