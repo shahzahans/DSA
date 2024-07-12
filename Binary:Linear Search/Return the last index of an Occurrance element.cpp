@@ -4,7 +4,6 @@
  * ~ Search Element K in sorted Array
  * Problem Statement: Given a sorted array of integers and an element K, write a function that returns the last index of 
  * ~ of an element k is present, using recursion 
- * - The occurrence element of the last index is found through BinarySearch only.
  * return -1 if the element is not present
  */
 #include <iostream>
