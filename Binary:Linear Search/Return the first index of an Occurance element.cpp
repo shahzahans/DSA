@@ -1,6 +1,6 @@
 /**
  * Practice Problem ~ Shadman S.
- * Topic: "Time Comp" ~ Binary Search O(log(n))/Linear Search 
+ * Topic: Binary Search/Linear Search 
  * ~ Search Element K in sorted Array
  * Problem Statement: Given a sorted array of integers and an element K, write a function that returns the first index of 
  * ~ of an element k is present, using recursion
