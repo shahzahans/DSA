@@ -8,10 +8,10 @@
 #include <iostream>
 using namespace std;
 
-int linearSearch(int a[], int n, int k){
+int linearSearch(int a[], int n, int k){ // Linear Search Function counting the occurance
     int count = 0;
     
-    for (int i = 0; i < n; i++){
+    for (int i = 0; i < n; i++){ // loop to count the occurrance
         if(a[i] == k){
             count++;
         }
@@ -19,19 +19,19 @@ int linearSearch(int a[], int n, int k){
     return count;
 }
 
-int find_first_occurance(int a[], int L, int R, int k){
+int find_first_occurance(int a[], int L, int R, int k){ // Binary search function to find the first index
     int res = -1;
-    while(L <= R){
+    while(L <= R){ // loop to find the first index, & loop exits if L is greater than R
         int mid = (L+R)/2;
-        if (a[mid] == k){
+        if (a[mid] == k){ // If mid key is equal to k then store mid then go to the left side
             res = mid;
             R = mid -1;
         }
-        else if (a[mid] > k){
+        else if (a[mid] > k){ // if mid is greater than k still go to the left side
             R = mid -1;
         }
-        else {
-            L = mid +1;
+        else { // if mid is less than key element then go the right side 
+            L = mid +1; 
         }
     }
     return res;
