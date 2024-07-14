@@ -2,7 +2,7 @@
  * Practice Problem ~ Shadman S.
  * Topic: Binary Search/Linear Search 
  * ~ Search Element K in sorted Array
- * Problem Statement: Given a sorted array containing duplicates, count occurences of a given number
+ * Problem Statement: Given a sorted array containing duplicates, count occurrences of a given number
  * return -1 if the element is not present
  */
 #include <iostream>
@@ -23,14 +23,14 @@ int find_first_occurance(int a[], int L, int R, int k){ // Binary search functio
     int res = -1;
     while(L <= R){ // loop to find the first index, & loop exits if L is greater than R
         int mid = (L+R)/2;
-        if (a[mid] == k){ // If mid key is equal to k then store mid then go to the left side
+        if (a[mid] == k){ // If the mid key is equal to k then store mid then go to the left side
             res = mid;
             R = mid -1;
         }
         else if (a[mid] > k){ // if mid is greater than k still go to the left side
             R = mid -1;
         }
-        else { // if mid is less than key element then go the right side 
+        else { // if mid is less than the key element then go to the right side 
             L = mid +1; 
         }
     }
