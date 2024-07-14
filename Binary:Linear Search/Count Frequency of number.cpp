@@ -37,18 +37,18 @@ int find_first_occurance(int a[], int L, int R, int k){ // Binary search functio
     return res;
 }
 
-int find_last_occurnace(int a[], int L, int R, int k){
+int find_last_occurnace(int a[], int L, int R, int k){ // Binary Search function to find the last index
     int res = -1;
     while(L <= R){
-        int mid = (L+R)/2;
-        if (a[mid] == k){
+        int mid = (L+R)/2; // loop to find the last index, & loop exists if L is greater than R
+        if (a[mid] == k){ // if the mid key is equal to k then store mid then go to the right side
             res = mid;
             L = mid +1;
         }
-        else if (a[mid] > k){
+        else if (a[mid] > k){ // if mid is greater than k go to the left side
             R = mid -1;
         }
-        else {
+        else { // if mid is less than the key element then go to the right side
             L = mid +1;
         }
     }
@@ -57,9 +57,9 @@ int find_last_occurnace(int a[], int L, int R, int k){
 
 int main()
 {
-    int a[] = {1,2,3,4,5,5,5,6,7};
+    int a[] = {1,2,3,4,5,5,5,6,7}; // initializing the array 
     int k = 5;
-    int n = sizeof(a)/sizeof(a[0]);
+    int n = sizeof(a)/sizeof(a[0]); // 
     
     int frequencyLin = linearSearch(a,n,k);
     int firstIndex = find_first_occurance(a,0,n-1,k);
