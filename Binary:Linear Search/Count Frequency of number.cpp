@@ -59,14 +59,14 @@ int main()
 {
     int a[] = {1,2,3,4,5,5,5,6,7}; // initializing the array 
     int k = 5;
-    int n = sizeof(a)/sizeof(a[0]); // 
+    int n = sizeof(a)/sizeof(a[0]); // finding the size of an Array
     
-    int frequencyLin = linearSearch(a,n,k);
-    int firstIndex = find_first_occurance(a,0,n-1,k);
-    int lastIndex = find_last_occurnace(a,0,n-1,k);
+    int frequencyLin = linearSearch(a,n,k); // calling the function
+    int firstIndex = find_first_occurance(a,0,n-1,k); // calling the function
+    int lastIndex = find_last_occurnace(a,0,n-1,k); // calling the function
     
     int frequencyBin = 0;
-    if (lastIndex == -1 || firstIndex == -1){
+    if (lastIndex == -1 || firstIndex == -1){ 
         cout << " -1 it is not present" << endl;
     }
     else {
