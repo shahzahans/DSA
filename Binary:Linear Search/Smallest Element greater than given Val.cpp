@@ -2,7 +2,7 @@
  * Practice Problem ~ Shadman S.
  * Topic: Binary Search/Linear Search 
  * ~ Search Element K in sorted Array
- * Problem Statement: Given a sorted characters consiting of lowercase alphabets and particular target value, say k,
+ * Problem Statement: Given a sorted character consisting of lowercase alphabets and a particular target value, say k,
  * ~ the task is to find the smallest Element in the list that is larger than K
  */
 #include <iostream>
