@@ -8,7 +8,7 @@
 #include <iostream>
 using namespace std;
 
-char solve_bs (char a[], int n, int k){
+char solve_bs (char a[], int n, int k){ // function to get the first index 
     int l = 0;
     int r = n-1;
     
