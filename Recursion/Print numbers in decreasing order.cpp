@@ -9,11 +9,11 @@
 using namespace std;
 
 void recursion (int n){ // Calling the recursion function
-    if(n < 0){
+    if(n < 0){ // if n is less than 0 then exits
         return;
     }
-    cout << n << " ";
-    recursion(n -1);
+    cout << n << " "; 
+    recursion(n -1); // function calling itself
 }
 int main()
 {
