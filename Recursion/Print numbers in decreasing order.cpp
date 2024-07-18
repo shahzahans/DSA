@@ -8,7 +8,7 @@
 #include <iostream>
 using namespace std;
 
-void recursion (int n){
+void recursion (int n){ // Calling the recursion function
     if(n < 0){
         return;
     }
