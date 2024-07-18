@@ -17,10 +17,10 @@ void recursion (int n){ // Calling the recursion function
 }
 int main()
 {
-    int n = 5;
+    int n = 5; // number to start from 
     // output 5,4,3,2,1,0
     
-    recursion(n);
+    recursion(n); // calling the function
 
     return 0;
 }
