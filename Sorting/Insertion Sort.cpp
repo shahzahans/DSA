@@ -1,7 +1,7 @@
 /**
  * Practice Problem ~ Shadman S.
  * Topic: Sorting
- * Problem Statement: Given an Array, sort the Array using insertion-sorting method
+ * Problem Statement: Given an Array, sort the Array using the insertion-sorting method
  */
 #include <iostream>
 using namespace std;
@@ -12,7 +12,7 @@ public:
     void insertionSort(int numbers[], int numberSize){ // function for insertion-Sort Sort
     int Temp;
     int  j;
-    for (int i = 1; i < numberSize; i++){ // for loop to run while loop by intializing j
+    for (int i = 1; i < numberSize; i++){ // for loop to run while loop by initializing j
         j = i;
         
         while ( j > 0 && numbers[j] < numbers[j - 1]){ // While loop to sort
