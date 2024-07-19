@@ -19,7 +19,7 @@ public:
             Temp = numbers[j];
             numbers[j] = numbers[j - 1];
             numbers [j - 1] = Temp;
-            j--; // ensures if all element are in correct position or not
+            j--; // ensures that all elements are in the correct position or not
         }
     }
 }
@@ -31,8 +31,8 @@ public:
 
 int main(){
 Sort sorts;
-int numbers[] = {5,4,3,20,1,6,7,2}; // intialized the array
-int numberSize = 8; // intialized the size 
+int numbers[] = {5,4,3,20,1,6,7,2}; // initialized the array
+int numberSize = 8; // initialized the size 
 
 cout << "Unsorted: ";
 for (int i = 0; i < numberSize; i++){ // for loop to print Unsorted Array
