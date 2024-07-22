@@ -11,10 +11,10 @@ bool isPowerOfTwo(int n) { // Function to see if number is divisible by 2
         if (n == 1){ // 1 is power of two because square root of 1 is 1 and not decimal number
             return true;
         }
-        else if(n%2 !=0 || n <= 0){ 
+        else if(n%2 !=0 || n <= 0){ // if a number is not divisible by 2 then false, n is equal to 0 and less than 0  returns falls too
             return false;
         }
-        return isPowerOfTwo(n/2);
+        return isPowerOfTwo(n/2); // recursion function is being called
 
 }
 
