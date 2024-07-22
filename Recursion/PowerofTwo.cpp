@@ -20,10 +20,10 @@ bool isPowerOfTwo(int n) { // Function to see if number is divisible by 2
 
 int main()
 {
-   int n;
+   int n; // declaring a number 
    cout << "Enter a Number: ";
-   cin >> n;
-   isPowerOfTwo(n);
+   cin >> n; // inputting a number
+   isPowerOfTwo(n); // calling the function
    
    if(n == 1){
        cout << "True";
