@@ -7,7 +7,7 @@
 #include <iostream>
 using namespace std;
 
-bool isPowerOfTwo(int n) { // Function to see if number is divisible by 2
+bool isPowerOfTwo(int n) { // Function to see if the number is divisible by 2
         if (n == 1){ // 1 is power of two because square root of 1 is 1 and not decimal number
             return true;
         }
