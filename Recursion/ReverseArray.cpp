@@ -7,12 +7,12 @@
 #include <iostream>
 using namespace std;
 
-void recursion(int a[], int n, int i){
-    if(i == n){
+void recursion(int a[], int n, int i){ // Function Print the array 
+    if(i == n){ // if i reaches n then exits the function
         return;
     }
-    cout << a[i] << " ";
-    recursion(a,n,i+1);
+    cout << a[i] << " "; //priting the array
+    recursion(a,n,i+1); //callig the function itself
 }
 void reverseArray(int a[], int n, int i){
     if(i < 0){
