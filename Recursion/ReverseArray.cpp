@@ -29,8 +29,8 @@ int main()
     int current = n -1; //declaring variable for pointing to index
     
     cout << "The reverse Array of";
-    recursion(a,n,0);
+    recursion(a,n,0); //calling the function
     cout << "is " ;
-    reverseArray(a,n,current);
+    reverseArray(a,n,current); // calling the function
     return 0;
 }
