@@ -20,10 +20,10 @@ int findMin(int a[], int n, int i, int mn){ //Function to find minimum element
 
 int main()
 {
-    int a[] = {1,-2,4,3,-10,-20};
-    int n = sizeof(a)/sizeof(a[0]);
+    int a[] = {1,-2,4,3,-10,-20}; // initialized array
+    int n = sizeof(a)/sizeof(a[0]); //finding the size of an array
     
-    int mn = a[0];
+    int mn = a[0]; //intializing variable to store the first element as minimum value
     
    cout << "The minimum element in an array is " << findMin(a,n,0,mn);
     
