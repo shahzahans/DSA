@@ -7,14 +7,14 @@
 #include <iostream>
 using namespace std;
 
-int findMin(int a[], int n, int i, int mn){
+int findMin(int a[], int n, int i, int mn){ //Function to find minimum element
     //base case
-    if(i == n){
-        return mn;
+    if(i == n){ // if i reaches the end of array then exits out by returning mn
+        return mn; 
     }
     //task
-    mn = min(mn,a[i]);
-    return findMin(a,n,i+1,mn);
+    mn = min(mn,a[i]); // min function to find minimum element
+    return findMin(a,n,i+1,mn); //calling function itself (recursion method)
     
 }
 
