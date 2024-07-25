@@ -2,7 +2,7 @@
  * Practice Problem ~ Shadman S.
  * Topic: Recursion
  * ~ Reverse Array
- * Problem Statement: Given an array of integers, print all its element in reverse order using recursion
+ * Problem Statement: Given an array of integers, print all its elements in reverse order using recursion
  */
 #include <iostream>
 using namespace std;
