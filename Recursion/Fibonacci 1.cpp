@@ -1,8 +1,8 @@
 /**
  * Practice Problem ~ Shadman S.
  * Topic: Recursion
- * ~ 
- * Problem Statement: given a number n, find its factorial using recursion
+ * ~ Fibonacci 
+ * Problem Statement: given a integer n, find the nth term of the fibonacci series
  */
 #include <iostream>
 using namespace std;
