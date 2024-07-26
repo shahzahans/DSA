@@ -7,9 +7,9 @@
 #include <iostream>
 using namespace std;
 
-int factorial(int n){
+int factorial(int n){ //function to find factorial number
     //base cae
-    if(n == 0){
+    if(n == 0){ // if the size reaches 0 then returns 1
         return 1;
     }
     //calling the recursion function
@@ -18,7 +18,7 @@ int factorial(int n){
 
 int main()
 {
-    int n = 5;
+    int n = 5; // intializing the number
     //output: 5*4*3*2*1 = 120
     cout << "The factorial of " << n << " is " << factorial(n);
 
