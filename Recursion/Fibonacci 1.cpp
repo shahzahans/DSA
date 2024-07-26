@@ -7,9 +7,9 @@
 #include <iostream>
 using namespace std;
 
-int fibonacci(int n){
+int fibonacci(int n){ //Function to return fibonacci occurance
     //base case
-    if (n == 0){
+    if (n == 0){ //if 
         return 0;
     }
     else if (n == 1){
