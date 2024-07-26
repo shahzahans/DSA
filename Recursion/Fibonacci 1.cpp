@@ -9,13 +9,13 @@ using namespace std;
 
 int fibonacci(int n){ //Function to return fibonacci occurance
     //base case
-    if (n == 0){ //if 
+    if (n == 0){ //if n is 0 returns 0
         return 0;
     }
-    else if (n == 1){
+    else if (n == 1){ //if n is 1 then returns 1
         return 1;
     }
-    return fibonacci(n-1) + fibonacci(n-2);
+    return fibonacci(n-1) + fibonacci(n-2); //calling the recursion function
 }
 int main()
 {
