@@ -15,6 +15,7 @@ int fibonacci(int n){ //function to find the Fibonacci series
     else if (n == 1){ //if n is 1 returns 1
         return 1;
     }
+    //calling the recursion functions
     return fibonacci(n-1) + fibonacci(n-2); // for fibonacci to occur previous add two numbers needs to be added to get the next one
 }
 int main()
