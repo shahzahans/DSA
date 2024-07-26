@@ -16,6 +16,7 @@ int fibonacci(int n){ //Function to return fibonacci occurance
         return 1;
     }
     return fibonacci(n-1) + fibonacci(n-2); //calling the recursion function
+    // for fibonacci to occur previous add two numbers needs to be added to get the next one
 }
 int main()
 {
