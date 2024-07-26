@@ -19,15 +19,15 @@ int fibonacci(int n){ //function to find the Fibonacci series
 }
 int main()
 {
-    int n;
+    int n; // declaring a variable
     //output 0,1,1,2,3,5
-    cout << "Enter a number: ";
-    cin >> n;
+    cout << "Enter a number: "; 
+    cin >> n; //input method
     cout << endl;
     
     cout << "The fibonacci series is - ";
     
-    for(int i=0; i < n; i++){
+    for(int i=0; i < n; i++){ // printing the fibonacci sequence
         cout << fibonacci(i) << " ";
     }
 
