@@ -9,7 +9,7 @@ using namespace std;
 
 int factorial(int n){ //function to find factorial number
     //base cae
-    if(n == 0){ // if the size reaches 0 then returns 1
+    if(n == 0){ // if the n reaches 0 then returns 1 and exits out
         return 1;
     }
     //calling the recursion function
