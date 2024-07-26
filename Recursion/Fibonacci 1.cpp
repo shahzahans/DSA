@@ -19,10 +19,10 @@ int fibonacci(int n){ //Function to return fibonacci occurance
 }
 int main()
 {
-    int n;
+    int n; //decalring n value
     //output 0,1,1,2,3,5
     cout << "Enter a number: ";
-    cin >> n;
+    cin >> n; //inputing the n value
     cout << endl;
     
     cout << "The " << n << "'th term of the fibonacci series is "<< fibonacci (n) << endl;
