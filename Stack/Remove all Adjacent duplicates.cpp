@@ -39,7 +39,8 @@ int main()
         st2.pop();
     }
     
-    cout << "After removing the 2-adjacent and equal letter of string \"" << s <<"\" is \"" << a << "\"";
+    cout << "After removing the 2-adjacent and equal letter of string \"" << s <<"\" is \"" << a << "\""; 
+    // final output is ABCD
     
 
     return 0;
