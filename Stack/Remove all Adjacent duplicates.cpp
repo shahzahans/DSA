@@ -11,30 +11,30 @@ using namespace std;
 
 int main()
 {
-    string s;
+    string s; //initializing a string
     cout << "Enter an adjacent similarity string: ";
-    cin >> s;
+    cin >> s; //inputting a string ex: ABBBCDD
     
-    stack <char> st1;
-    for (auto c:s){
-        if(!st1.empty() && st1.top() == c){
+    stack <char> st1; //declaring stack1
+    for (auto c:s){ //using ranged for loop to push char of string into stack1
+        if(!st1.empty() && st1.top() == c){ //if top of stack1 equals current element, then pop it
             st1.pop();
         }
         else{
-            st1.push(c);
+            st1.push(c); //else push char into stack1
         }
-    }
+    } //after the string is pushed then stack1 =  DCBA so we need to push back to another stack to reverse it
     
-    stack <char> st2;
-    char c;
-    string a;
-    while (!st1.empty()){
+    stack <char> st2; //declaring stack2
+    char c; //initializing char value so char pushed through a single character
+    string a; //initializing a string
+    while (!st1.empty()){ //loop to push char from stack1 to stack2, loop ends if stack is empty
         c = st1.top();
         st1.pop();
         st2.push(c);
     }
     
-    while (!st2.empty()){
+    while (!st2.empty()){ loop to push char back into string in order to print
         a += st2.top();
         st2.pop();
     }
