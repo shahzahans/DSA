@@ -1,4 +1,9 @@
-
+/**
+ * Practice Problem ~ Shadman S.
+ * Topic: Stack
+ * Problem Statement: You are given a string consisting of lowercase English letters. A duplicate removal consists of choosing two adjacent and equal letters and removing them.
+ * We repeatedly make duplicate removals on s until we no longer can. Return the final string all such duplicate removal have been made.
+ */
 
 #include <bits/stdc++.h>
 #include <iostream>
@@ -7,7 +12,7 @@ using namespace std;
 int main()
 {
     string s;
-    cout << "Enter a adjacent similarity string: ";
+    cout << "Enter an adjacent similarity string: ";
     cin >> s;
     
     stack <char> st1;
