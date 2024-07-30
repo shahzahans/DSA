@@ -9,13 +9,13 @@ using namespace std;
 
 int main()
 {
-    string a;
+    string a; //declaring a string 
     cout << "Enter a parenthesis of string: ";
-    cin >> a;
-    int n = a.size();
-    stack <char> st;
+    cin >> a; // inputing the string
+    int n = a.size(); //finding the size of string
+    stack <char> st; //declaring a stack method to store string as char
     
-    for(int i; i < n; i++){
+    for(int i; i < n; i++){ 
         if(st.size() != 0 && st.top() == '(' && a[i] == ')'){
             st.pop();
         }
