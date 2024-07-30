@@ -1,4 +1,8 @@
-
+/**
+ * Practice Problem ~ Shadman S.
+ * Topic: Stack
+ * Problem Statement: Given an expression string, write a program to examine whether the pairs and the orders of '(', '{', '[', ')','}',']' are correct in the given expression
+ */
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
