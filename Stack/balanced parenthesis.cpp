@@ -29,7 +29,7 @@ int main()
             st.push(a[i]);
         }
     }
-    if (st.size() == 0){
+    if (st.size() == 0){ //if statements to check if the parenthesis are balanced
         cout << "balanced" << endl;
     }
     else{
