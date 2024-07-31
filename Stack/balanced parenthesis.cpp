@@ -32,7 +32,7 @@ int main()
     if (st.size() == 0){ //if statements to check if the parenthesis are balanced
         cout << "balanced" << endl;
     }
-    else{
+    else{ // else parenthesis are not balanced
         cout << "not balanced" << endl;
     }
 
