@@ -24,7 +24,8 @@ int main()
         else{
             st1.push(c); //else push char into stack1
         }
-    } //after the string is pushed then stack1 =  DCBA so we need to push back to another stack to reverse it or a second stack is not needed if you use a = st1.top() + a (line 38) and change every other arguments to st1
+    } //after the string is pushed then stack1 =  DCBA so we need to push back to another stack to reverse it or a second stack is not needed if you use a = st1.top() + a (line 38) 
+    // ~ and change every other arguments to st1
     
     stack <char> st2; //declaring stack2
     char c; //initializing char value so char pushed through a single character
