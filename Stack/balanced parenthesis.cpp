@@ -1,6 +1,6 @@
 /**
  * Practice Problem ~ Shadman S.
- * Topic: Stack Balanced Parenthesis
+ * Topic: Stack - Balanced Parenthesis
  * Problem Statement: Given an expression string, write a program to examine whether the pairs and the orders of '(', '{', '[', ')','}',']' are correct in the given expression
  */
 #include <iostream>
