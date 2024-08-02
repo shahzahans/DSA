@@ -1,6 +1,6 @@
 /**
  * Practice Problem ~ Shadman S.
- * Topic: Stack
+ * Topic: Stack - Reverse a string
  * Problem Statement: given a string, reverse it using a stack
  */
 #include <bits/stdc++.h>
