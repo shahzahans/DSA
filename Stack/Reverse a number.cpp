@@ -1,6 +1,6 @@
 /**
  * Practice Problem ~ Shadman S.
- * Topic: Stack
+ * Topic: Stack- Reverse a number
  * Problem Statement: given numbers of ineteger, reverse it using a stack
  */
 #include <bits/stdc++.h>
