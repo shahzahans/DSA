@@ -1,6 +1,6 @@
 /**
  * Practice Problem ~ Shadman S.
- * Topic: Recursion
+ * Topic: Recursion - Power of Two
  * ~ Power of Two
  * Problem Statement: Given an integer n, return true if it is a power of two. Otherwise, return false.
  */
