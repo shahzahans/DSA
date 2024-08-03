@@ -1,6 +1,6 @@
 /**
  * Practice Problem ~ Shadman S.
- * Topic: Recursion
+ * Topic: Recursion - Print in Decreasing Order
  * ~ Print numbers in Decreasing order
  * Problem Statement: Given a number n, print all the numbers from n to 1 in decreasing order using recursion
  * return -1 if the element is not present
