@@ -1,6 +1,6 @@
 /**
  * Practice Problem ~ Shadman S.
- * Topic: Recursion
+ * Topic: Recursion - Factorial
  * ~ Factorial Number
  * Problem Statement: given a number n, find its factorial using recursion
  */
