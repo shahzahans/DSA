@@ -1,6 +1,6 @@
 /**
  * Practice Problem ~ Shadman S.
- * Topic: Recursion
+ * Topic: Recursion - Fibonacci
  * ~ Fibonacci 
  * Problem Statement: given a integer n, find the nth term of the fibonacci series
  */
