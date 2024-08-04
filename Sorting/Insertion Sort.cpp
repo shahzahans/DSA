@@ -1,6 +1,6 @@
 /**
  * Practice Problem ~ Shadman S.
- * Topic: Sorting
+ * Topic: Sorting - Insertion Sort
  * Problem Statement: Given an Array, sort the Array using the insertion-sorting method
  */
 #include <iostream>
