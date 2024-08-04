@@ -1,6 +1,6 @@
 /**
  * Practice Problem ~ Shadman S.
- * Topic: Sorting
+ * Topic: Sorting - Insertion sort
  * Problem Statement: Given an Array, sort the Array using selection-sorting method
  */
 #include <iostream>
