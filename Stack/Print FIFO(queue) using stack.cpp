@@ -1,7 +1,7 @@
 /**
  * Practice Problem ~ Shadman S.
  * Topic: Stack - Print FIFO order using Stack 
- * Problem Statement: Given a array of integers, print its element in FIFO (left to right order) using stack
+ * Problem Statement: Given an array of integers, print its element in FIFO (left to right order) using stack
  */
  
 #include <bits/stdc++.h>
