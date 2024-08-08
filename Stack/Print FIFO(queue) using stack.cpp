@@ -9,7 +9,7 @@
 using namespace std;
 int main()
 {
-    int a[] = {1,2,3,4,5,6,7};
+    int a[] = {1,2,3,4,5,6,7}; //initializing the array
     stack <int> st1;
     stack <int> st2;
     
