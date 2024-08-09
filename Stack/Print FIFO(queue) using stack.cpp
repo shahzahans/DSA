@@ -33,7 +33,7 @@ int main()
     cout << "}";
     cout << endl;
     cout << "Second stack contains arrays as {";
-    
+    //stack 2 is used to reverse it 
     while (!st2.empty()){ //when the stack is not empty print the top element and pop it after it
         if (st2.top() == a[6]){
             cout << st2.top();
