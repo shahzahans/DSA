@@ -19,7 +19,7 @@ int main()
     
     cout << "First stack contains arrays as reversed {"; 
     
-    while (!st1.empty()){
+    while (!st1.empty()){ //when the stack is not empty print the top element and pop it after it
         if (st1.top() == a[0]){
             cout << st1.top();
         }
@@ -34,7 +34,7 @@ int main()
     cout << endl;
     cout << "Second stack contains arrays as {";
     
-    while (!st2.empty()){
+    while (!st2.empty()){ //when the stack is not empty print the top element and pop it after it
         if (st2.top() == a[6]){
             cout << st2.top();
         }
