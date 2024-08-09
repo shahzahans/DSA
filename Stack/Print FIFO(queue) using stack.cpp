@@ -10,14 +10,14 @@ using namespace std;
 int main()
 {
     int a[] = {1,2,3,4,5,6,7}; //initializing the array
-    stack <int> st1;
-    stack <int> st2;
+    stack <int> st1; //declaring the first stack
+    stack <int> st2; //declaring the second stack
     
     for(int i=0; i<7; i++){
-        st1.push(a[i]);
+        st1.push(a[i]); //pushing data from array to first stack
     }
     
-    cout << "First stack contains arrays as reversed {";
+    cout << "First stack contains arrays as reversed {"; 
     
     while (!st1.empty()){
         if (st1.top() == a[0]){
