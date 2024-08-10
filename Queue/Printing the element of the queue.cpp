@@ -9,9 +9,9 @@ using namespace std;
 
 int main()
 {
-    int a[] = {1,2,3,4,5,6,7,8,9,10};
-    int n = sizeof(a)/sizeof(a[0]);
-    queue <int> queue1;
+    int a[] = {1,2,3,4,5,6,7,8,9,10}; //initializing array of integers
+    int n = sizeof(a)/sizeof(a[0]); //finding the size of Array
+    queue <int> queue1; //declaring queue
     
     for(int i = 0; i<n; i++){
         queue1.push(a[i]);
