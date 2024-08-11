@@ -5,11 +5,11 @@
  * Problem Statement: Given a sorted array of integers and an element K, write a function that returns the first index of 
  * ~ of an element k is present, using recursion
  * return -1 if the element is not present
- */
+ */ 
 #include <iostream>
 using namespace std;
 
- int linearSearch(int a[],int n, int k){ // Function for linearSearch medthod
+ int linearSearch(int a[],int n, int k){ // Function for linear search method
      for (int i = 0; i < n; i ++){ // loop find the first occurrence index element of K
          if(a[i] == k){
              return i;
@@ -22,7 +22,7 @@ using namespace std;
      
      int res; // variable to store mid, if K is == mid
      int mid = (L + R)/2;
-     if( a[mid] == k){ // if a[mid] == k then we check the left side if the index is present on the left side first
+     if( a[mid] == k){ // if a[mid] == k then we check the left side of the index is present on the left side first
          res = mid;
          R = mid -1;
      }
