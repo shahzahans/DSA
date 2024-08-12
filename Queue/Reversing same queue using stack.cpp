@@ -28,7 +28,7 @@ int main()
     }
     
     cout << endl;
-    while(!st1.empty()){ //pushing back to the queue from stack 
+    while(!st1.empty()){ //pushing elements in stack back to the queue
         queue1.push(st1.top());
         st1.pop();
     }
