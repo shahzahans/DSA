@@ -9,10 +9,10 @@ using namespace std;
 
 int main()
 {
-    int a[] = {1,2,3,4,5,6,7,8,9,10};
-    int n = sizeof(a)/sizeof(a[0]);
+    int a[] = {1,2,3,4,5,6,7,8,9,10}; //initialize the array
+    int n = sizeof(a)/sizeof(a[0]); // finding the size of an array
     
-    queue <int> queue1;
+    queue <int> queue1; // decalring a queue
     
     for (int i = 0; i < n; i++){
         queue1.push(a[i]);
