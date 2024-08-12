@@ -35,7 +35,7 @@ int main()
     
     cout << "The Reverse odering of the queue elements are: ";
     
-    while(!queue1.empty()){ 
+    while(!queue1.empty()){ //printing the reverse queue 
         cout << queue1.front() << " ";
         queue1.pop();
     }
