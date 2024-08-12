@@ -28,14 +28,14 @@ int main()
     }
     
     cout << endl;
-    while(!st1.empty()){
+    while(!st1.empty()){ //pushing back to the queue from stack 
         queue1.push(st1.top());
         st1.pop();
     }
     
     cout << "The Reverse odering of the queue elements are: ";
     
-    while(!queue1.empty()){
+    while(!queue1.empty()){ 
         cout << queue1.front() << " ";
         queue1.pop();
     }
