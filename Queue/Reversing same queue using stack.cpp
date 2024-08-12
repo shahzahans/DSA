@@ -14,13 +14,14 @@ int main()
     
     queue <int> queue1; // decalring a queue
     
-    for (int i = 0; i < n; i++){
+    for (int i = 0; i < n; i++){ //loop to push array of elements into queue
         queue1.push(a[i]);
     }
     
     cout << "The Original ordering of the queue elements are: ";
-    stack <int> st1;
-    while(!queue1.empty()){
+    
+    stack <int> st1; //declaring stack
+    while(!queue1.empty()){ //pushing all the elements in queue to stack and then removing it from queue
         cout << queue1.front() << " ";
         st1.push(queue1.front());
         queue1.pop();
