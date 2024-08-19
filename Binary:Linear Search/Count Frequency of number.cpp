@@ -73,13 +73,13 @@ int main()
         frequencyBin = lastIndex - firstIndex +1;
     }
     
-    cout << "Using BinarySearch method the counted occurrences of given number is: " << frequencyBin << endl;
+    cout << "Using BinarySearch method the counted occurrences of a given number is: " << frequencyBin << endl;
     
     if (frequencyLin == 0){
         cout << " -1 it is not present" << endl;
     }
     else{ 
-        cout << "Using linear search method the counted occurrences of given number is: " << frequencyLin << endl;
+        cout << "Using linear search method the counted occurrences of a given number is: " << frequencyLin << endl;
     }
     return 0;
 }
