@@ -25,7 +25,7 @@ int main(){
     
     cout << "The size of Array is " << n << " and the element that is present within the array is {";
     
-    printArray (a,n); // calling the function using set of arguements
+    printArray (a,n); // calling the function using set of arguments
     
     cout << "}";
     
