@@ -3,7 +3,6 @@
  * Topic: Stack - Print FIFO order using Stack 
  * Problem Statement: Given an array of integers, print its element in FIFO (left to right order) using stack
  */
- 
 #include <bits/stdc++.h>
 #include <iostream>
 using namespace std;
