@@ -1,7 +1,7 @@
 /**
  * Practice Problem ~ Shadman S.
  * Topic: Array'S
- * Problem Statement: Given an array of integers, reverse it.
+ * Problem Statement: Give an array of integers and reverse it.
  */
 
 #include <iostream>
@@ -23,5 +23,4 @@ int main()
     }
 
     return 0;
-    
 }
