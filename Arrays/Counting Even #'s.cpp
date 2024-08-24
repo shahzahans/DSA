@@ -10,7 +10,7 @@ using namespace std;
 int main()
 {
     int a[] = {1,2,3,4,5,6,9,10,12}; // Initializing Array
-    int count = 0; // Creating and initializing a varible to count the even numbers included in Array
+    int count = 0; // Creating and initializing a variable to count the even numbers included in Array
 
     for (int i = 0; i < 9; i++){ // Loop to traverse the Array to find the even numbers
         if(a[i] % 2 == 0){
