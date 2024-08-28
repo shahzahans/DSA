@@ -11,12 +11,12 @@ int main()
 {
     string a; //declaring a string 
     cout << "Enter a parenthesis of string: ";
-    cin >> a; // inputing the string
+    cin >> a; // inputting the string
     int n = a.size(); //finding the size of string
-    stack <char> st; //declaring a stack method to store string as char
+    stack <char> st; //declaring a stack method to store a string as char
     
-    for(int i; i < n; i++){ //loop to find if the parenthesis of string is balance or not
-        if(st.size() != 0 && st.top() == '(' && a[i] == ')'){ //if size of stack is not 0 and current top() begin parenthisis and a[i] is end parenthesis then pop()
+    for(int i; i < n; i++){ //loop to find if the parenthesis of the string is balanced or not
+        if(st.size() != 0 && st.top() == '(' && a[i] == ')'){ //if size of stack is not 0 and current top() begin parenthesis and a[i] is end parenthesis then pop()
             st.pop();
         }
         else if(st.size() != 0 && st.top() == '[' && a[i] == ']'){//if size of stack is not 0 and current top() begin parenthisis and a[i] is end parenthesis then pop()
@@ -25,7 +25,7 @@ int main()
         else if (st.size() != 0 && st.top() == '{' && a[i] == '}'){//if size of stack is not 0 and current top() begin parenthisis and a[i] is end parenthesis then pop()
             st.pop();
         }
-        else{ //if stack is empty push the string as character
+        else{ //if stack is empty push the string as a character
             st.push(a[i]);
         }
     }
