@@ -18,7 +18,7 @@ void printRange (int start, int end){ // Function to print the range from start 
 int main()
 {
     int start = 1; // initialized variable to have a starting point
-    int end = 10; // initialized variable to have a ending point
+    int end = 10; // initialized variable to have an ending point
     
     printRange(start, end);
 
