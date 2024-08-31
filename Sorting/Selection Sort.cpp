@@ -1,7 +1,7 @@
 /**
  * Practice Problem ~ Shadman S.
  * Topic: Sorting - Insertion sort
- * Problem Statement: Given an Array, sort the Array using selection-sorting method
+ * Problem Statement: Given an Array, sort the Array using the selection-sorting method
  */
 #include <iostream>
 using namespace std;
@@ -12,7 +12,7 @@ public:
     void selectionSort(int numbers[], int numberSize){ // function for Selection Sort
         int indexSmallest;
         int Temp;
-        for (int i = 0; i < numberSize - 1; i++){ // 1st loop to iterate to intialize the smallest index & swaps the proper integer in its right place 
+        for (int i = 0; i < numberSize - 1; i++){ // 1st loop to iterate to initialize the smallest index & swaps the proper integer in its right place 
             indexSmallest = i; 
             for (int j = i + 1 ; j < numberSize; j++){ // 2nd loop too iterate to find the smallest index
                 if (numbers[j] < numbers[indexSmallest]){
@@ -32,8 +32,8 @@ public:
 
 int main(){
 Sort sorts;
-int numbers[] = {5,4,3,20,1,6,7,2}; // intialized the array
-int numberSize = 8; // intialized the size 
+int numbers[] = {5,4,3,20,1,6,7,2}; // initialized the array
+int numberSize = 8; // initialized the size 
 
 cout << "Unsorted: ";
 for (int i = 0; i < numberSize; i++){ // for loop to print Unsorted Array
