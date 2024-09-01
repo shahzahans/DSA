@@ -1,7 +1,7 @@
 /**
  * Practice Problem ~ Shadman S.
  * Topic: Binary Search/Linear Search 
- * ~ Search Element K in sorted Array 
+ * ~ Search Element K in sorted Array
  * Problem Statement: Given a sorted array containing duplicates, count occurrences of a given number
  * return -1 if the element is not present
  */
