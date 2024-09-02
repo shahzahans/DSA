@@ -1,6 +1,6 @@
 /**
  * Practice Problem ~ Shadman S.
- * Topic: Array'S
+ * Topic: Array'S 
  * Problem Statement: Given an array of integers, find the count of even elements in it.
  */
 
