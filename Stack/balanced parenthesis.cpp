@@ -25,7 +25,7 @@ int main()
         else if (st.size() != 0 && st.top() == '{' && a[i] == '}'){//if size of stack is not 0 and current top() begin parenthisis and a[i] is end parenthesis then pop()
             st.pop();
         }
-        else{ //if stack is empty push the string as a character
+        else{ //if the stack is empty push the string as a character
             st.push(a[i]);
         }
     }
