@@ -5,7 +5,7 @@
  * Problem Statement: Given a sorted character consisting of lowercase alphabets and a particular target value, say k,
  * ~ the task is to find the smallest Element in the list that is larger than K
  */
-#include <iostream>
+#include <iostream> 
 using namespace std;
 
 char solve_bs (int a[], int n, int k){ // function to get the first index
