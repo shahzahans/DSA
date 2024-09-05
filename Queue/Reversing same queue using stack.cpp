@@ -21,7 +21,7 @@ int main()
     cout << "The Original ordering of the queue elements are: ";
     
     stack <int> st1; //declaring stack
-    while(!queue1.empty()){ //pushing all the elements in queue to stack and then removing it from queue
+    while(!queue1.empty()){ //pushing all the elements in the queue to stack and then removing it from queue
         cout << queue1.front() << " ";
         st1.push(queue1.front());
         queue1.pop();
