@@ -3,7 +3,7 @@
  * Topic: Array'S 
  * Problem Statement: Given an array of integers, find the count of even elements in it.
  */
-
+ 
 #include <iostream>
 using namespace std;
 
