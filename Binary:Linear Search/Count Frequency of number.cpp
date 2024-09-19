@@ -5,6 +5,7 @@
  * Problem Statement: Given a sorted array containing duplicates, count occurrences of a given number
  * return -1 if the element is not present
  */
+
 #include <iostream>
 using namespace std;
 
